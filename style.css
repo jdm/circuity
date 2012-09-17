@@ -1,0 +1,48 @@
+#chatbox {
+    border: 1px black solid;
+    width: 100%;
+    height: 100%;
+    display: none;
+    font-family: monospace;
+}
+
+#userlist {
+    min-width: 20%;
+    max-width: 20%;
+    height: 100%;
+    float: right;
+    border-left: 1px black solid;
+}
+
+#userlist-header {
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+
+#messages {
+    float: left;
+    width: 79.6%;
+}
+
+.msg {
+    padding-left: 10px;
+}
+
+.user {
+    padding-left: 10px;
+}
+
+#log {
+    height: 90%;
+    width: 100%;
+}
+
+#chat {
+    width: 100%;
+}
+
+#topic {
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}

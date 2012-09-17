@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>CIRCuity</title>
+  <script src="jquery.min.js" type="text/javascript"></script>
+  <script src="main.js" type="text/javascript" ></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="chatbox">
+    <div id="messages">
+      <div id="topic">Topic</div>
+      <div id="log">
+        <div class="message">&lt;<span class="sender">foo</span>&gt; <span class="text">hey dude what's up</span></div>
+        <div class="message">&lt;<span class="sender">bar</span>&gt; <span class="text">not much man</span></div>
+      </div>
+      <input id="chat" onkeypress="chatinput(event)">
+    </div>
+    <div id="userlist">
+      <div id="userlist-header">Users</div>
+      <div class="user">foo</div>
+      <div class="user">bar</div>
+    </div>
+  </div>
+  <div id="config">
+    <input id="network" size="15" value="localhost">
+    <input id="port" type="number" value="6667" size="4">
+    <input id="channel" size="10" value="#circuit"> <br>
+    <input id="name" value="anonymous">
+    <input type="submit" value="Connect" onclick="connect(event)">
+  </div>
+</body>
+</html>

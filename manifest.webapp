@@ -1,0 +1,9 @@
+{
+  "name": "CIRCuit",
+  "description": "IRC client",
+  "permissions": [
+    "tcp-socket"
+  ],
+  "icon": {
+  }
+}
